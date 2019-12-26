@@ -1,0 +1,19 @@
+.sousuo img{
+    margin-top:15px;
+}
+.form-control{
+    display: inline-block;
+    font: 0.8rem ºÚÌå;
+    border: 1px solid #0aa1ed;
+    border-radius: 0;
+    margin-top:15px;
+}
+.form-control:focus {
+    box-shadow:none;
+}
+.breadcrumb-item:nth-child(4),.breadcrumb-item:nth-child(5){
+    margin-top:4px;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    content:"|";
+}
